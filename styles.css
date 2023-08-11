@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  font-family: "Comic Sans MS";
+}
+body {
+  background-color: rgb(238, 226, 210);
+}
+header {
+  display: flex;
+  background-image: url("https://oyster.ignimgs.com/mediawiki/apis.ign.com/minecraft/d/d4/Ocean_-_Deep_Ocean.png?width=1280");
+  height: 120px;
+  flex-direction: column;
+  align-items: center;
+}
+header > a {
+  color: rgb(192, 184, 73);
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+section:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  height: 80px;
+}
+main {
+  padding: 20px;
+}
+img {
+  object-fit: cover;
+  aspect-ratio: 3/4;
+}
+p {
+  font-size: 12px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+i {
+  font-size: 30px;
+  color: black;
+}
